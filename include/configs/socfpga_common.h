@@ -246,6 +246,7 @@ unsigned int cm_get_qspi_controller_clk_hz(void);
 	"pxefile_addr_r=0x02200000\0" \
 	"ramdisk_addr_r=0x02300000\0" \
 	"socfpga_legacy_reset_compat=1\0" \
+    "ethaddr=ce:7c:70:d2:e3:8d\0" \
 	BOOTENV
 
 #endif
